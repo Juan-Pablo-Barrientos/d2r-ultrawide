@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# never commit files extracted from or derived from the game
+*.texture
+*.bin
+*.dds
+*.sprite

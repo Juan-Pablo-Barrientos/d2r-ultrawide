@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "Ultrawide (no 19:9 side bars)",
+  "patches": [
+    {
+      "op": "bytes",
+      "rva": "0xE19DF8",
+      "expected": "C7 42 08 72 1C 07 40",
+      "bytes": "C7 42 08 00 00 80 40"
+    }
+  ]
+}
